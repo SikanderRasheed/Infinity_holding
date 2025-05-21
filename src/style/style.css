@@ -1025,3 +1025,61 @@ header .header_bottom .cert-dropdown li a:hover {
 }
 
 /* Academic Sec End */
+
+/* Inspection Banner Start */
+
+.inspection_banner {
+    padding-bottom: 90px;
+}
+
+.inspection_banner .slide_bg {
+    background: gray;
+    padding: 90px 0;
+}
+
+.inspection_banner .slide_bg .sec_btn a {
+    background: rgb(6, 6, 203);
+    width: max-content;
+    height: 60px;
+    padding: 0 27px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.inspection_banner .slick-next {
+    right: 28px;
+    top: inherit;
+    bottom: -34px;
+    background: white !important;
+    height: 65px;
+    width: max-content !important;
+    padding: 0 21px;
+}
+
+.inspection_banner .slick-next:focus {
+    background: white;
+}
+
+.inspection_banner .slick-prev {
+    left: inherit;
+    right: 114px;
+    top: inherit;
+    bottom: -34px;
+    background: white !important;
+    height: 65px;
+    width: max-content !important;
+    padding: 0 21px;
+    z-index: 99;
+    border-right: 1px solid #cecece;
+}
+
+.inspection_banner .slick-next:before {
+    content: url(../../public/images/arrow-right.png);
+}
+
+.inspection_banner .slick-prev:before {
+    content: url(../../public/images/arrow-left.png);
+}
+
+/* Inspection Banner End */
