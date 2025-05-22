@@ -52,7 +52,7 @@ a {
 }
 
 .text-blue {
-    color: rgb(22, 22, 78);
+    color: #05151c;
 }
 
 .text-dark-gray {
@@ -253,7 +253,7 @@ a {
 /* Top Bar Start */
 
 .top_bar {
-    background: rgb(22, 22, 78);
+    background: #05151c;
     padding: 10px 0;
 }
 
@@ -278,11 +278,11 @@ a {
 .header .header_top .logo span {
     font-size: 50px;
     font-weight: 600;
-    color: rgb(22, 22, 78);
+    color: #05151c;
 }
 
 header .header_bottom {
-    background: rgb(22, 22, 78);
+    background: #05151c;
     padding: 5px 0;
 }
 
@@ -1028,10 +1028,6 @@ header .header_bottom .cert-dropdown li a:hover {
 
 /* Inspection Banner Start */
 
-.inspection_banner {
-    padding-bottom: 90px;
-}
-
 .inspection_banner .slide_bg {
     background: gray;
     padding: 90px 0;
@@ -1083,3 +1079,170 @@ header .header_bottom .cert-dropdown li a:hover {
 }
 
 /* Inspection Banner End */
+
+/* Inspection services Start */
+
+.inspection_services .card {
+    border: 0;
+    border-radius: 0px;
+    padding: 35px 35px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 5px solid rgb(4, 4, 83);
+    background: transparent;
+    transition: all ease-in-out 0.3s;
+}
+
+.inspection_services .card:hover {
+    background: rgb(4, 4, 83);
+    transition: all ease-in-out 0.3s;
+}
+
+.inspection_services .card .icon,
+.inspection_services .card h4,
+.inspection_services .card p {
+    transition: all ease-in-out 0.3s;
+}
+
+.inspection_services .card:hover .icon,
+.inspection_services .card:hover h4,
+.inspection_services .card:hover p {
+    color: white !important;
+    transition: all ease-in-out 0.3s;
+}
+
+/* Inspection services End */
+
+/* Inspection Quality Start */
+
+.inspection_quality {
+    padding: 50px 0 90px;
+}
+
+.inspection_quality .label_btn {
+    width: 100%;
+    border: 1px solid #cecece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 50px 0;
+}
+
+.inspection_quality .label_btn.active {
+    background: blue;
+}
+
+.inspection_quality .label_btn.active p {
+    color: white !important;
+}
+
+/* Inspection Quality End */
+
+/* Inspection Knowledge Start */
+
+.knowledge_sec {
+    background-image: url(../../public/images/bg-section-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.knowledge_sec .card {
+    background: white;
+    padding: 20px;
+    border-radius: 0;
+    border: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.knowledge_sec .card:hover {
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.3s;
+}
+
+.knowledge_sec .card .icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(7, 7, 118);
+    box-shadow: inset 2px 0px 20px 11px #00000051;
+    border-radius: 0px;
+}
+
+.knowledge_sec .slick-dots {
+    bottom: -49px;
+}
+
+/* Inspection Knowledge End */
+
+/* Brands Slider Start */
+
+.brands_slider_sec {
+    padding: 90px 0;
+}
+
+/* Brands Slider End */
+
+/* About Us Start */
+
+.about-us {
+    padding: 90px 0;
+}
+
+.about-us .txt h2 {
+    position: relative;
+}
+
+.about-us .img img {
+    max-height: 550px;
+    width: 100%;
+}
+
+/* About Us End */
+
+/* About Download Start */
+
+.about-download{
+    padding-bottom: 90px;
+}
+
+.about-download .download_sec {
+    background: rgb(8, 8, 116);
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.about-download .download_sec .btn a {
+    width: max-content;
+    height: 50px;
+    padding: 0 20px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 600;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-download .card {
+    background: #f9f9f9ce;
+    padding: 50px 30px;
+    border-radius: 0px;
+    transition: all ease-in-out 0.4s;
+}
+
+.about-download .card:hover {
+    background: white;
+    box-shadow: 3px 2px 26px -9px #cececece;
+    transition: all ease-in-out 0.4s;
+}
+
+/* About Download End */
