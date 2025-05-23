@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaLocationDot } from 'react-icons/fa6'
 
 const Footer = () => {
     return (
@@ -233,6 +234,15 @@ const Footer = () => {
                                     <a href="javascript:;" className='text-white f-20 '>
                                         <FaInstagram />
                                     </a>
+                                </li>
+                            </ul>
+                            <h3 className='f-20 f700 text-white mt-4'>
+                                Address
+                            </h3>
+                            <ul className='d-flex align-items-center p-0 mt-3'>
+                                <li>
+                                    <FaLocationDot className='text-white f-24 me-2' />
+                                    <a href='javascript:;' className='f-14 f600 text-white'>Office no.203 Nafees arcade gulshan e Iqbal Karachi Pakistan</a>
                                 </li>
                             </ul>
                         </div>

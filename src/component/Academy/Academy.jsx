@@ -131,20 +131,20 @@ const Academy = ({ content }) => {
                             <h3 className='f-24 f700 text-black mb-4'>Contact</h3>
                             <div className="address mb-3">
                                 <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start'>
-                                    <FaMapMarkedAlt className='w-25' />
-                                    Regitered Office: Office 4690 182-184 High Street North Ham Landon United Kingdom E6 2JA, company Number 1438-751
+                                    <FaMapMarkedAlt className='f-22 me-2' />
+                                    45-745 Farmstead drive. Milton
                                 </a>
                             </div>
                             <div className="address mb-3">
                                 <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start'>
-                                    <FaMapMarkedAlt className='w-25' />
-                                    Regitered Office: Office 4690 182-184 High Street North Ham Landon United Kingdom E6 2JA, company Number 1438-751
+                                    <FaMapMarkedAlt className='f-22 me-2' />
+                                    Office no.203 Nafees arcade gulshan e Iqbal Karachi Pakistan
                                 </a>
                             </div>
                             <div className="address mb-3">
                                 <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start gap-4'>
                                     <div className="icon">
-                                        <FaPhone className='' />
+                                        <FaPhone className='f-22 me-2'/>
                                     </div>
                                     <div>
                                         <span className="d-block">
@@ -158,8 +158,8 @@ const Academy = ({ content }) => {
                             </div>
                             <div className="address mb-3">
                                 <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start gap-4'>
-                                    <FaEnvelope className='' />
-                                    info@infinity.com
+                                    <FaEnvelope className='f-22 me-2' />
+                                    info@trustedsystempartners.com
                                 </a>
                             </div>
                         </div>

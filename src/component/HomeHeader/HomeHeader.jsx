@@ -105,13 +105,13 @@ const HomeHeader = () => {
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="mail">
-                                        <a href="javascript:;" className='d-flex align-items-center gap-3'>
+                                        <a href="mailto:info@trustedsystempartners.com;" className='d-flex align-items-center gap-3'>
                                             <div className="icon">
                                                 <FaEnvelope className='f-26 text-blue' />
                                             </div>
                                             <div>
                                                 <span className='f-16 f600 text-dark-gray d-block'>Mail us for help</span>
-                                                <span className='f-16 f300 text-light-gray d-block'>info@infinity.com</span>
+                                                <span className='f-16 f300 text-light-gray d-block'>info@trustedsystempartners.com</span>
                                             </div>
                                         </a>
                                     </div>
@@ -124,7 +124,7 @@ const HomeHeader = () => {
                                             </div>
                                             <div>
                                                 <span className='f-16 f600 text-dark-gray d-block'>Marketing Office</span>
-                                                <span className='f-16 f300 text-light-gray d-block'>Office 4690 182-184 London, U.K </span>
+                                                <span className='f-16 f300 text-light-gray d-block'>45-745 Farmstead drive. Milton </span>
                                             </div>
                                         </a>
                                     </div>
