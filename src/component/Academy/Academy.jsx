@@ -36,7 +36,7 @@ const Academy = ({ content }) => {
                                     </li>
                                 ))}
                             </ul>
-                            {content.isIso ?
+                            {/* {content.isIso ?
                                 <div className='innerTabs mt-4'>
                                     <Tabs
                                         defaultActiveKey="profile"
@@ -60,7 +60,7 @@ const Academy = ({ content }) => {
                                         <li className='mb-2 f-14 f400 text-dark-gray'>Awareness Tarining</li>
                                         <li className='mb-2 f-14 f400 text-dark-gray'>Awareness Tarining</li>
                                     </ol>
-                                </>}
+                                </>} */}
                         </div>
                         {content.isIso ? null :
                             <div className="slider pt-5">
@@ -130,35 +130,35 @@ const Academy = ({ content }) => {
                         <div className="contact mt-4">
                             <h3 className='f-24 f700 text-black mb-4'>Contact</h3>
                             <div className="address mb-3">
-                                <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start'>
-                                    <FaMapMarkedAlt className='f-22 me-2' />
+                                <a href="https://g.co/kgs/PSkByoQ" className='f-16 f300 text-black d-flex align-items-start'>
+                                    <FaMapMarkedAlt className='w-15 me-4' />
                                     45-745 Farmstead drive. Milton
                                 </a>
                             </div>
                             <div className="address mb-3">
-                                <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start'>
-                                    <FaMapMarkedAlt className='f-22 me-2' />
-                                    Office no.203 Nafees arcade gulshan e Iqbal Karachi Pakistan
+                                <a href="https://g.co/kgs/UPDY9Hk" className='f-16 f300 text-black d-flex align-items-start'>
+                                    <FaMapMarkedAlt className='w-20 me-4' />
+                                    Office No. 203, Nafees Archade Gulshan e Iqbal Karachi, Pakistan,
                                 </a>
                             </div>
                             <div className="address mb-3">
-                                <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start gap-4'>
+                                <a href="tel:20 100 043 9791;" className='f-16 f300 text-black d-flex align-items-start gap-4'>
                                     <div className="icon">
-                                        <FaPhone className='f-22 me-2'/>
+                                        <FaPhone className='' />
                                     </div>
                                     <div>
-                                        <span className="d-block">
+                                        {/* <span className="d-block">
                                             (123) 456-789-0
-                                        </span>
+                                        </span> */}
                                         <span className="d-block">
-                                            (123) 456-789-0
+                                             20 100 043 9791
                                         </span>
                                     </div>
                                 </a>
                             </div>
                             <div className="address mb-3">
                                 <a href="javascript:;" className='f-16 f300 text-black d-flex align-items-start gap-4'>
-                                    <FaEnvelope className='f-22 me-2' />
+                                    <FaEnvelope className='' />
                                     info@trustedsystempartners.com
                                 </a>
                             </div>

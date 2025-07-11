@@ -45,6 +45,14 @@ a {
     text-transform: uppercase;
 }
 
+.w-20 {
+    width: 7% !important;
+}
+
+.w-15 {
+    width: 5% !important;
+}
+
 /* Colors */
 
 .icons_colors {
@@ -52,7 +60,7 @@ a {
 }
 
 .text-blue {
-    color: #05151c;
+    color: rgb(22, 22, 78);
 }
 
 .text-dark-gray {
@@ -253,7 +261,7 @@ a {
 /* Top Bar Start */
 
 .top_bar {
-    background: #05151c;
+    background: rgb(22, 22, 78);
     padding: 10px 0;
 }
 
@@ -278,11 +286,15 @@ a {
 .header .header_top .logo span {
     font-size: 50px;
     font-weight: 600;
-    color: #05151c;
+    color: rgb(22, 22, 78);
+}
+
+.header .header_top .logo img {
+    max-height: 85px;
 }
 
 header .header_bottom {
-    background: #05151c;
+    background: rgb(22, 22, 78);
     padding: 5px 0;
 }
 
@@ -1025,224 +1037,3 @@ header .header_bottom .cert-dropdown li a:hover {
 }
 
 /* Academic Sec End */
-
-/* Inspection Banner Start */
-
-.inspection_banner .slide_bg {
-    background: gray;
-    padding: 90px 0;
-}
-
-.inspection_banner .slide_bg .sec_btn a {
-    background: rgb(6, 6, 203);
-    width: max-content;
-    height: 60px;
-    padding: 0 27px;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.inspection_banner .slick-next {
-    right: 28px;
-    top: inherit;
-    bottom: -34px;
-    background: white !important;
-    height: 65px;
-    width: max-content !important;
-    padding: 0 21px;
-}
-
-.inspection_banner .slick-next:focus {
-    background: white;
-}
-
-.inspection_banner .slick-prev {
-    left: inherit;
-    right: 114px;
-    top: inherit;
-    bottom: -34px;
-    background: white !important;
-    height: 65px;
-    width: max-content !important;
-    padding: 0 21px;
-    z-index: 99;
-    border-right: 1px solid #cecece;
-}
-
-.inspection_banner .slick-next:before {
-    content: url(../../public/images/arrow-right.png);
-}
-
-.inspection_banner .slick-prev:before {
-    content: url(../../public/images/arrow-left.png);
-}
-
-/* Inspection Banner End */
-
-/* Inspection services Start */
-
-.inspection_services .card {
-    border: 0;
-    border-radius: 0px;
-    padding: 35px 35px;
-    position: relative;
-    overflow: hidden;
-    border-bottom: 5px solid rgb(4, 4, 83);
-    background: transparent;
-    transition: all ease-in-out 0.3s;
-}
-
-.inspection_services .card:hover {
-    background: rgb(4, 4, 83);
-    transition: all ease-in-out 0.3s;
-}
-
-.inspection_services .card .icon,
-.inspection_services .card h4,
-.inspection_services .card p {
-    transition: all ease-in-out 0.3s;
-}
-
-.inspection_services .card:hover .icon,
-.inspection_services .card:hover h4,
-.inspection_services .card:hover p {
-    color: white !important;
-    transition: all ease-in-out 0.3s;
-}
-
-/* Inspection services End */
-
-/* Inspection Quality Start */
-
-.inspection_quality {
-    padding: 50px 0 90px;
-}
-
-.inspection_quality .label_btn {
-    width: 100%;
-    border: 1px solid #cecece;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding: 50px 0;
-}
-
-.inspection_quality .label_btn.active {
-    background: blue;
-}
-
-.inspection_quality .label_btn.active p {
-    color: white !important;
-}
-
-/* Inspection Quality End */
-
-/* Inspection Knowledge Start */
-
-.knowledge_sec {
-    background-image: url(../../public/images/bg-section-01.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 90px 0;
-}
-
-.knowledge_sec .card {
-    background: white;
-    padding: 20px;
-    border-radius: 0;
-    border: 0;
-    transition: all ease-in-out 0.3s;
-}
-
-.knowledge_sec .card:hover {
-    transform: translateY(-10px);
-    transition: all ease-in-out 0.3s;
-}
-
-.knowledge_sec .card .icon {
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(7, 7, 118);
-    box-shadow: inset 2px 0px 20px 11px #00000051;
-    border-radius: 0px;
-}
-
-.knowledge_sec .slick-dots {
-    bottom: -49px;
-}
-
-/* Inspection Knowledge End */
-
-/* Brands Slider Start */
-
-.brands_slider_sec {
-    padding: 90px 0;
-}
-
-/* Brands Slider End */
-
-/* About Us Start */
-
-.about-us {
-    padding: 90px 0;
-}
-
-.about-us .txt h2 {
-    position: relative;
-}
-
-.about-us .img img {
-    max-height: 550px;
-    width: 100%;
-}
-
-/* About Us End */
-
-/* About Download Start */
-
-.about-download{
-    padding-bottom: 90px;
-}
-
-.about-download .download_sec {
-    background: rgb(8, 8, 116);
-    padding: 15px 40px;
-    border-radius: 10px;
-    margin-bottom: 60px;
-}
-
-.about-download .download_sec .btn a {
-    width: max-content;
-    height: 50px;
-    padding: 0 20px;
-    background: white;
-    color: black;
-    font-size: 16px;
-    line-height: 23px;
-    font-weight: 600;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-download .card {
-    background: #f9f9f9ce;
-    padding: 50px 30px;
-    border-radius: 0px;
-    transition: all ease-in-out 0.4s;
-}
-
-.about-download .card:hover {
-    background: white;
-    box-shadow: 3px 2px 26px -9px #cececece;
-    transition: all ease-in-out 0.4s;
-}
-
-/* About Download End */

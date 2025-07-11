@@ -56,22 +56,33 @@ const menuItems = [
         content: [
             {
                 links: [
-                    { name: 'Inspection', url: "/inspection" },
+                    { name: 'Business', url: "javasript:;" },
                     { name: 'Training', url: "/training" }
                 ]
             },
         ]
     },
-    // {
-    //     label: 'Documents',
-    //     content: [
-    //         { title: 'Templates', links: ['Policy', 'Checklist'] },
-    //         { title: 'Guides', links: ['How-to', 'FAQs'] }
-    //     ]
-    // },
+    {
+        label: 'Documents',
+        content: [
+            { title: 'Templates', links: ['Policy', 'Checklist'] },
+            { title: 'Guides', links: ['How-to', 'FAQs'] }
+        ]
+    },
     {
         label: 'About',
+        content: [
+            { title: 'Company', links: ['Mission', 'Vision'] },
+            { title: 'Team', links: ['Experts', 'Partners'] }
+        ]
     },
+    {
+        label: 'More',
+        content: [
+            { title: 'Blog', links: ['Articles', 'Updates'] },
+            { title: 'Events', links: ['Webinars', 'Workshops'] }
+        ]
+    }
 ];
 
 const HomeHeader = () => {
@@ -82,9 +93,9 @@ const HomeHeader = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <div className="logo">
-                                {/* <span>Logo Here</span> */}
                                 <a href="/">
-                                <img src="/images/logo.png" alt="Logo" className='img-fluid' />
+                                    {/* <span>Logo Here</span> */}
+                                    <img src="public/images/logo.png" alt="Logo" className='img-fluid' />
                                 </a>
                             </div>
                         </div>
@@ -105,7 +116,7 @@ const HomeHeader = () => {
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="mail">
-                                        <a href="mailto:info@trustedsystempartners.com;" className='d-flex align-items-center gap-3'>
+                                        <a href="javascript:;" className='d-flex align-items-center gap-3'>
                                             <div className="icon">
                                                 <FaEnvelope className='f-26 text-blue' />
                                             </div>
@@ -118,7 +129,7 @@ const HomeHeader = () => {
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="phone">
-                                        <a href="javascript:;" className='d-flex align-items-center gap-3'>
+                                        <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-center gap-3'>
                                             <div className="icon">
                                                 <FaMapMarkerAlt className='f-26 text-blue' />
                                             </div>
@@ -141,7 +152,7 @@ const HomeHeader = () => {
                             <div className="menus">
                                 <ul className='d-flex align-items-center gap-4 mb-0'>
                                     <li>
-                                        <a href="javascript:;" className='f-16 text-white f500'>
+                                        <a href="/" className='f-16 text-white f500'>
                                             Home
                                         </a>
                                     </li>
@@ -167,44 +178,38 @@ const HomeHeader = () => {
                                     ))} */}
                                     {menuItems.map((item, index) => (
                                         <li className="nav-item" key={index}>
-                                            {/* Check if item.label is 'About' */}
-                                            {item.label === 'About' ? (
-                                                <a href="/about" className="f-16 text-white f500">
-                                                    {item.label}
-                                                </a>
-                                            ) : (
-                                                <>
-                                                    <a href="#" className="f-16 text-white f500">
-                                                        {item.label} +
-                                                    </a>
-                                                    <div className="mega-menu">
-                                                        <div className="mega-content">
-                                                            {item.content.map((block, idx) => (
-                                                                <div key={idx}>
-                                                                    {block.title && <h5 className="text-black">{block.title}</h5>}
-                                                                    <ul>
-                                                                        {block.links.map((link, i) => {
-                                                                            if (typeof link === 'string') {
-                                                                                return (
-                                                                                    <li key={i}>
-                                                                                        <a href="#" className="text-black">{link}</a>
-                                                                                    </li>
-                                                                                );
-                                                                            } else {
-                                                                                return (
-                                                                                    <li key={i}>
-                                                                                        <a href={link.url} className="text-black">{link.name}</a>
-                                                                                    </li>
-                                                                                );
-                                                                            }
-                                                                        })}
-                                                                    </ul>
-                                                                </div>
-                                                            ))}
+                                            <a href="#" className="f-16 text-white f500">
+                                                {item.label} +
+                                            </a>
+                                            <div className="mega-menu">
+                                                <div className="mega-content">
+                                                    {item.content.map((block, idx) => (
+                                                        <div key={idx}>
+                                                            {/* Optional Title if present */}
+                                                            {block.title && <h5 className="text-black ">{block.title}</h5>}
+
+                                                            <ul>
+                                                                {block.links.map((link, i) => {
+                                                                    // Check if link is an object (has name and url) or just a string
+                                                                    if (typeof link === 'string') {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <a href="#" className="text-black ">{link}</a>
+                                                                            </li>
+                                                                        );
+                                                                    } else {
+                                                                        return (
+                                                                            <li key={i}>
+                                                                                <a href={link.url} className="text-black ">{link.name}</a>
+                                                                            </li>
+                                                                        );
+                                                                    }
+                                                                })}
+                                                            </ul>
                                                         </div>
-                                                    </div>
-                                                </>
-                                            )}
+                                                    ))}
+                                                </div>
+                                            </div>
                                         </li>
                                     ))}
                                 </ul>

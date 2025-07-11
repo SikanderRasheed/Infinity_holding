@@ -4,24 +4,24 @@ import { FaCertificate, FaCodeBranch, FaGlobeAmericas, FaReact } from "react-ico
 const counterData = [
     {
         icon: <FaReact className="f-60 text-white mb-2" />,
-        target: 12,
-        label: "Nationalities",
+        target: 10,
+        label: "GLOBAL LOCATIONS",
     },
     {
         icon: <FaGlobeAmericas className="f-60 text-white mb-2" />,
-        target: 22,
-        label: "Countries",
+        target: 1000,
+        label: "SUCCESSFUL PROJECT",
     },
     {
         icon: <FaCertificate className="f-60 text-white mb-2" />,
-        target: 2000,
-        label: "Certificates",
+        target: 11,
+        label: "YEARS OF EXPERIENCE",
     },
-    {
-        icon: <FaCodeBranch className="f-60 text-white mb-2" />,
-        target: 5,
-        label: "Branch",
-    },
+    // {
+    //     icon: <FaCodeBranch className="f-60 text-white mb-2" />,
+    //     target: 5,
+    //     label: "Branch",
+    // },
 ];
 
 const AboutUs = () => {
@@ -77,20 +77,16 @@ const AboutUs = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="txt text-center">
-                            <h2 className="f-40 f700 text-white">We have Over 15 Years of Experience</h2>
+                            <h2 className="f-40 f700 text-white">Need Help?</h2>
                             <p className="text-white f-16">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea suscipit impedit
-                                qui! Nihil, obcaecati laboriosam, at corrupti ipsam et earum non ratione ad in
-                                dicta? Quo porro fugit laboriosam dolorem!
-                            </p>
-                            <p className="text-white f-16 uppercase mb-5">
-                                "We Will Do Not Sell, We Certify"
+                                Tell us how we can help and we’ll reach
+                                out within one business day
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row justify-content-center mt-5">
                     {counterData.map((item, index) => (
                         <div className="col-lg-3 col-md-6 col-12" key={index}>
                             <div className="text-center">

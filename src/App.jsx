@@ -6,8 +6,6 @@ import CertifiesCompanySearch from './pages/certifiedCompany/certifies-company-s
 import PersonalCertificate from './pages/personalCertificate/personal-certificate';
 import Training from './pages/training/Training';
 import Iso from './pages/iso/Iso';
-import Inspection from './pages/inspection/inspection';
-import About from './pages/about-us/about';
 
 const routes = [
   {
@@ -24,12 +22,6 @@ const routes = [
   },
   {
     path: '/iso', element: <Iso />
-  },
-  {
-    path: '/inspection', element: <Inspection />
-  },
-  {
-    path: '/about', element: <About />
   },
 ];
 
