@@ -72,7 +72,7 @@ const Faqs = () => {
                             <div className="txt">
                                 <h6 className='f-24 f500 text-black uppercase mb-0'>Faq</h6>
                             </div>
-                            <div class="secondary_btn">
+                            <div className="secondary_btn">
                                 <a href='javascript:;'>Read More </a>
                             </div>
                         </div>

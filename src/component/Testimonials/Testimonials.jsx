@@ -20,7 +20,7 @@ const Testimonials = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="txt text-center">
-                            <h2 class="f-40 f700 text-blue captilized">We are Dedicated to satify Client</h2>
+                            <h2 className="f-40 f700 text-blue captilized">We are Dedicated to satify Client</h2>
                             <p className='pt-3 text-light-gray f300 mb-4'>Become more successful with international standards</p>
                         </div>
                     </div>

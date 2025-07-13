@@ -1,17 +1,11 @@
 import React from 'react'
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
+import logo from "/images/logo.png";
+
 
 const menuItems = [
     {
         label: 'Standards',
-        // content: [
-        //     { links: ['ISO 9001', 'ISO 45001'] },
-        //     { links: ['ISO 9004', 'ISO 45010'] },
-        //     { links: ['ISO 9004', 'ISO 45010'] },
-        //     { links: ['ISO 9004', 'ISO 45010'] },
-        //     { links: ['ISO 9004', 'ISO 45010'] },
-        //     { links: ['ISO 9004', 'ISO 45010'] },
-        // ]
         content: [
             {
                 links: [
@@ -50,38 +44,6 @@ const menuItems = [
                 ]
             }
         ]
-    },
-    {
-        label: 'Services',
-        content: [
-            {
-                links: [
-                    { name: 'Business', url: "javasript:;" },
-                    { name: 'Training', url: "/training" }
-                ]
-            },
-        ]
-    },
-    {
-        label: 'Documents',
-        content: [
-            { title: 'Templates', links: ['Policy', 'Checklist'] },
-            { title: 'Guides', links: ['How-to', 'FAQs'] }
-        ]
-    },
-    {
-        label: 'About',
-        content: [
-            { title: 'Company', links: ['Mission', 'Vision'] },
-            { title: 'Team', links: ['Experts', 'Partners'] }
-        ]
-    },
-    {
-        label: 'More',
-        content: [
-            { title: 'Blog', links: ['Articles', 'Updates'] },
-            { title: 'Events', links: ['Webinars', 'Workshops'] }
-        ]
     }
 ];
 
@@ -95,7 +57,7 @@ const HomeHeader = () => {
                             <div className="logo">
                                 <a href="/">
                                     {/* <span>Logo Here</span> */}
-                                    <img src="public/images/logo.png" alt="Logo" className='img-fluid' />
+                                    <img src={logo} alt="Logo" className='img-fluid' />
                                 </a>
                             </div>
                         </div>
@@ -156,26 +118,6 @@ const HomeHeader = () => {
                                             Home
                                         </a>
                                     </li>
-                                    {/* {menuItems.map((item, index) => (
-                                        <li className="nav-item" key={index}>
-                                            <a href="#" className="f-16 text-white f500">
-                                                {item.label} +
-                                            </a>
-                                            <div className="mega-menu">
-                                                <div className="mega-content">
-                                                    {item.content.map((block, idx) => (
-                                                        <div key={idx}>
-                                                            <ul>
-                                                                {block.links.map((link, i) => (
-                                                                    <li key={i}><a href="#">{link}</a></li>
-                                                                ))}
-                                                            </ul>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </li>
-                                    ))} */}
                                     {menuItems.map((item, index) => (
                                         <li className="nav-item" key={index}>
                                             <a href="#" className="f-16 text-white f500">
@@ -212,6 +154,17 @@ const HomeHeader = () => {
                                             </div>
                                         </li>
                                     ))}
+                                    <li>
+                                        {/* <a href="/inspection" className='f-16 text-white f500'> */}
+                                        <a href="/" className='f-16 text-white f500'>
+                                            Inspection
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/training" className='f-16 text-white f500'>
+                                            Training
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

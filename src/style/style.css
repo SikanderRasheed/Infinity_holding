@@ -547,6 +547,15 @@ header .header_bottom .cert-dropdown li a:hover {
 
 /* About US  End*/
 
+
+/* Inspection Start */
+
+/* .knowledge_sec {
+    padding: 90px 0;
+} */
+
+/* Inspection End */
+
 /* Testimonials Start */
 
 .testimonials_sec {
@@ -608,20 +617,22 @@ header .header_bottom .cert-dropdown li a:hover {
 
 .guide_sec h2 span {
     position: relative;
+    height: 100%;
+    display: block;
 }
 
 .guide_sec h2 span::before {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: -2px;
     width: 55px;
     height: 2px;
     background: linear-gradient(90deg, skyblue, black);
 }
 
 .guide_sec ul li {
-    list-style-type: disc;
+    list-style: none;
 }
 
 .guide_sec .sec_btn a {
@@ -638,7 +649,7 @@ header .header_bottom .cert-dropdown li a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin-left: auto;
+    /* margin-left: auto; */
     text-transform: uppercase;
 }
 

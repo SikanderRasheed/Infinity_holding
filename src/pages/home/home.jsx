@@ -21,9 +21,9 @@ const home = () => {
             <AboutUs />
             <Testimonials />
             <Guide />
-            <Faqs />
-            <LatestNews />
-            <Companies />
+            {/* <Faqs /> */}
+            {/* <LatestNews /> */}
+            {/* <Companies /> */}
             <Footer />
         </>
     )

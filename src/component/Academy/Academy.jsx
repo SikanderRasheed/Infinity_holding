@@ -23,9 +23,9 @@ const Academy = ({ content }) => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="txt">
-                            <div class="d-flex align-items-center gap-4 mb-2 mb-lg-4">
+                            <div className="d-flex align-items-center gap-4 mb-2 mb-lg-4">
                                 <span></span>
-                                <h2 class="f-35 f700 text-black">{content.title}</h2>
+                                <h2 className="f-35 f700 text-black">{content.title}</h2>
                             </div>
                             <p className='f-18 f300 text-dark-gray'>{content.desc}</p>
                             <h2 className='f-30 f800 mb-3'>{content.listTitle}</h2>

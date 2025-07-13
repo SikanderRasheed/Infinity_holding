@@ -47,8 +47,8 @@ const InspectionBanner = () => {
                             <div className="col-lg-7 col-12">
                                 <div className="txt">
                                     <p className='text-blue f600 f-18 mb-1'>Crane Inspection</p>
-                                    <h1 className='f-40 f700 text-white mb-5'>Optimizing Crane Performance through Comprehensive Inspection</h1>
-                                    <p className='f-18 text-white mb-5'>Where you put your money matters. Open a checking account with a bank that finances a sustainable tommorow.</p>
+                                    <h1 className='f-40 f700 text-black mb-5'>Optimizing Crane Performance through Comprehensive Inspection</h1>
+                                    <p className='f-18 text-black mb-5'>Where you put your money matters. Open a checking account with a bank that finances a sustainable tommorow.</p>
                                     <div className="sec_btn">
                                         <a href="javascript:;" className='d-flex align-items-center gap-2'>
                                             <FaCog className='text-white' />

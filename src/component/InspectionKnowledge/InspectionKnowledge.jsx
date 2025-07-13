@@ -4,7 +4,7 @@ import Slider from 'react-slick'
 
 const InspectionKnowledge = () => {
     const knowledgeSlider = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -38,8 +38,8 @@ const InspectionKnowledge = () => {
                     <div className="col-12">
                         <div className="txt d-flex align-items-center gap-3">
                             <div>
-                                <p class="f-16 f400 text-blue mb-0">Services</p>
-                                <h2 class="f-32 f700 text-black mb-3">Everyone at ICI has entrepreneurial knowledge</h2>
+                                <p className="f-16 f400 text-blue mb-0">Services</p>
+                                <h2 className="f-32 f700 text-black mb-3">Everyone at ICI has entrepreneurial knowledge</h2>
                             </div>
                             <div>
                                 <p className='f-14 f400 text-dark-gray mb-1'>Expertise in several fields of safety and working with international clients and in largwe projects.</p>
