@@ -424,9 +424,9 @@ header .header_bottom .cert-dropdown li a:hover {
 
 /* Home Banner Start */
 
-.home_banner .slide_bg {
-    padding: 90px 0;
-    background: linear-gradient(90deg, rgb(3, 3, 255), transparent);
+.home_banner {
+    padding: 110px 0;
+    background: linear-gradient(90deg, #0a192b, #1d1e55bd);
 }
 
 .home_banner .slide_bg .slide_content {
@@ -503,7 +503,8 @@ header .header_bottom .cert-dropdown li a:hover {
 .accrediation_sec .txt h2::after {
     content: '';
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -5px;
     width: 70px;
     height: 2px;
@@ -565,6 +566,11 @@ header .header_bottom .cert-dropdown li a:hover {
 
 .testimonials_sec .txt h2 {
     position: relative;
+}
+
+.testimonials_sec .txt p {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .testimonials_sec .txt h2::after {
@@ -823,10 +829,6 @@ header .header_bottom .cert-dropdown li a:hover {
 .footer_sec {
     padding: 90px 0;
     background: rgb(31, 31, 88) !important;
-    position: sticky;
-    bottom: -100px;
-    width: 100%;
-    z-index: -1;
 }
 
 .footer_sec .txt h3 {

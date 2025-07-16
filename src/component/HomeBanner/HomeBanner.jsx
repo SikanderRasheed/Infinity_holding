@@ -18,46 +18,15 @@ const HomeBanner = () => {
 
     return (
         <section className="home_banner">
-            <Slider {...settings}>
-                <div>
-                    <div className="slide_bg">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-7">
-                                    <div className="slide_content">
-                                        <div className="txt">
-                                            <h1 className="f-40 f600 text-white">ISO 9001 QUALITY MANAGEMENT SYSTEMS</h1>
-                                            <p className="f-16 text-white f500">Successful companies are driven to deliver quality –  from the way they operate, to the customer. </p>
-                                        </div>
-                                        <div className="btn p-0">
-                                            <a href="javascript:;" className="uppercase">Read More ►</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="txt text-center">
+                            <h1 className="f-45 f600 text-white">Trusted System Partners</h1>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="slide_bg">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-7">
-                                    <div className="slide_content">
-                                        <div className="txt">
-                                            <h1 className="f-40 f600 text-white">Introduction of ISO 27001 Certification</h1>
-                                            <p className="f-16 text-white f500">ISO 27001 enables the organization to develop the expertise needed to the selection of fool proof security controls to protect Information Assets</p>
-                                        </div>
-                                        <div className="btn p-0">
-                                            <a href="javascript:;" className="uppercase">Read More ►</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Slider>
+            </div>
         </section>
     )
 }

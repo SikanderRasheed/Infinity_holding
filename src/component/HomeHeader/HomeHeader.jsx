@@ -110,17 +110,17 @@ const HomeHeader = () => {
             <div className="header_bottom">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-10">
+                        <div className="col-lg-9">
                             <div className="menus">
                                 <ul className='d-flex align-items-center gap-4 mb-0'>
                                     <li>
-                                        <a href="/" className='f-16 text-white f500'>
+                                        <a href="/" className='f-15 text-white f400 text-uppercase'>
                                             Home
                                         </a>
                                     </li>
                                     {menuItems.map((item, index) => (
                                         <li className="nav-item" key={index}>
-                                            <a href="#" className="f-16 text-white f500">
+                                            <a href="#" className="f-15 text-white f400 text-uppercase">
                                                 {item.label} +
                                             </a>
                                             <div className="mega-menu">
@@ -155,22 +155,22 @@ const HomeHeader = () => {
                                         </li>
                                     ))}
                                     <li>
-                                        {/* <a href="/inspection" className='f-16 text-white f500'> */}
-                                        <a href="/" className='f-16 text-white f500'>
+                                        {/* <a href="/inspection" className='f-15 text-white f400'> */}
+                                        <a href="/" className='f-15 text-white f400 text-uppercase'>
                                             Inspection
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/training" className='f-16 text-white f500'>
+                                        <a href="/training" className='f-15 text-white f400 text-uppercase'>
                                             Training
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-lg-3">
                             <div className="certifications">
-                                <a href="#" className="f-16 text-white f500">
+                                <a href="#" className="f-15 text-white f400 text-uppercase">
                                     Verify Certification
                                 </a>
                                 <div className="cert-dropdown">

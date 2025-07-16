@@ -20,11 +20,18 @@ const Testimonials = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="txt text-center">
-                            <h2 className="f-40 f700 text-blue captilized">We are Dedicated to satify Client</h2>
-                            <p className='pt-3 text-light-gray f300 mb-4'>Become more successful with international standards</p>
+                            <h2 className="f-40 f700 text-blue captilized">We have over 15 years of experience remove all</h2>
+                            <p className='pt-3 f-16 f400 text-light-gray f300 mb-2'>
+                                MISSION We are dedicated to promoting excellence, compliance, and continuous improvement across all sectors.By delivering expert guidance and customized solutions, we help clients achieve sustainable success.
+                                Integrity, professionalism, and client satisfaction are at the core of everything we do.
+                            </p>
+                            <p className='pt-3 f-16 f400 text-light-gray f300 mb-0'>
+                                MISSION We are dedicated to promoting excellence, compliance, and continuous improvement across all sectors.By delivering expert guidance and customized solutions, we help clients achieve sustainable success.
+                                Integrity, professionalism, and client satisfaction are at the core of everything we do.
+                            </p>
                         </div>
                     </div>
-                    <div className="col-12">
+                    {/* <div className="col-12">
                         <Slider {...TestimonialsSlider}>
                             <div className='px-3'>
                                 <div className="cardWrapper">
@@ -131,7 +138,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </Slider>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

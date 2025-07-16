@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer className='footer_sec'>
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-4">
+                <div className="row align-items-center">
+                    {/* <div className="col-lg-4">
                         <div className="txt">
                             <h3 className='f-20 f700 text-white'>
                                 Standards
@@ -186,13 +186,13 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div className="col-lg-2">
+                    </div> */}
+                    <div className="col-lg-3">
                         <div className="txt">
                             <h3 className='f-20 f700 text-white'>
                                 About
                             </h3>
-                            <ul className='p-0 mt-4'>
+                            <ul className='p-0 mt-4 mb-0'>
                                 <li className='mb-2'>
                                     <a href='javascript:;' className='f-16 f600 text-white'>About</a>
                                 </li>
@@ -202,13 +202,13 @@ const Footer = () => {
                                 <li className='mb-2'>
                                     <a href='javascript:;' className='f-16 f600 text-white'>Careers</a>
                                 </li>
-                                <li className='mb-2'>
+                                <li className='mb-0'>
                                     <a href='javascript:;' className='f-16 f600 text-white'>Contact</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-5">
                         <div className="txt">
                             <h3 className='f-20 f700 text-white'>
                                 Follow
@@ -243,7 +243,7 @@ const Footer = () => {
                             <ul className='d-flex align-items-center gap-3 p-0 mt-3'>
                                 <li>
                                     <a href="javascript:;" className='text-white f-16 '>
-                                        <FaMapMarkedAlt  className='me-3'/>
+                                        <FaMapMarkedAlt className='me-3' />
                                         Office No. 203, Nafees Archade Gulshan e Iqbal Karachi, Pakistan,
                                     </a>
                                 </li>
