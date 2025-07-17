@@ -1,11 +1,17 @@
 import React from 'react'
 import Topbar from '@/component/Topbar/Topbar'
 import HomeHeader from '@/component/HomeHeader/HomeHeader'
-import TrainingBanner from '@/component/TrainingBanner/TrainingBanner'
+import HomeBanner from '@/component/HomeBanner/HomeBanner'
 import Academy from '@/component/Academy/Academy'
 import Footer from '@/component/Footer/Footer'
+import TrainingContent from '../../component/TrainingContent/TrainingContent'
 
 const Training = () => {
+    // Banner Content
+    const bannerContent = {
+        title: "TRAINING",
+        desc: "Empowering Professionals Through Accredited Training & Development"
+    }
 
     const bannerTitle = "Academy"
     const pagesLink = ["Home", "Academy"];
@@ -47,8 +53,8 @@ const Training = () => {
         <>
             <Topbar />
             <HomeHeader />
-            <TrainingBanner content={bannerTitle} pagesLinks={pagesLink} />
-            <Academy content={academy} />
+            <HomeBanner content={bannerContent} />
+            <TrainingContent />
             <Footer />
         </>
     )

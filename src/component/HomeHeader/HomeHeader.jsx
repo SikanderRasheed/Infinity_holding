@@ -118,7 +118,12 @@ const HomeHeader = () => {
                                             Home
                                         </a>
                                     </li>
-                                    {menuItems.map((item, index) => (
+                                    <li>
+                                        <a href="/standards" className='f-15 text-white f400 text-uppercase'>
+                                            Standards
+                                        </a>
+                                    </li>
+                                    {/* {menuItems.map((item, index) => (
                                         <li className="nav-item" key={index}>
                                             <a href="#" className="f-15 text-white f400 text-uppercase">
                                                 {item.label} +
@@ -127,12 +132,10 @@ const HomeHeader = () => {
                                                 <div className="mega-content">
                                                     {item.content.map((block, idx) => (
                                                         <div key={idx}>
-                                                            {/* Optional Title if present */}
                                                             {block.title && <h5 className="text-black ">{block.title}</h5>}
 
                                                             <ul>
                                                                 {block.links.map((link, i) => {
-                                                                    // Check if link is an object (has name and url) or just a string
                                                                     if (typeof link === 'string') {
                                                                         return (
                                                                             <li key={i}>
@@ -153,10 +156,9 @@ const HomeHeader = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                    ))}
+                                    ))} */}
                                     <li>
-                                        {/* <a href="/inspection" className='f-15 text-white f400'> */}
-                                        <a href="/" className='f-15 text-white f400 text-uppercase'>
+                                        <a href="/inspection" className='f-15 text-white f400 text-uppercase'>
                                             Inspection
                                         </a>
                                     </li>

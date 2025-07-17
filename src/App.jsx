@@ -7,6 +7,7 @@ import PersonalCertificate from './pages/personalCertificate/personal-certificat
 import Training from './pages/training/Training';
 import Iso from './pages/iso/Iso';
 import Inspection from './pages/inspection/inspection';
+import Standards from './pages/standards/standards';
 
 const routes = [
   {
@@ -26,6 +27,9 @@ const routes = [
   },
   {
     path: '/inspection', element: <Inspection />
+  },
+  {
+    path: '/standards', element: <Standards />
   },
 ];
 
