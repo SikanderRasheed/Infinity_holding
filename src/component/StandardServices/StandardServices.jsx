@@ -29,18 +29,18 @@ const serviceContent = [
     },
     {
         image: Service4,
+        title: "ISO 22000 2018",
+        desc: "Food Safety Management Systems What is ISO 22000:2018 FSMS? ISO 22000 is the food safety management system that can be easily applicable to any organization in the food chain."
+    },
+    {
+        image: Service5,
         title: "ISO 13485 2016",
         desc: "MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM ISO 13485 is an official global standard that sets the requirements for medical device manufacturers."
     },
     {
-        image: Service5,
-        title: "ISO 27001:2013",
-        desc: "Information Security Management Systems What is ISO 27001:2013 ISMS? ISO 27001 is the international standard which is recognized globally for managing risks to the security of information."
-    },
-    {
         image: Service6,
-        title: "ISO 22716:2007",
-        desc: "GOOD MANUFACTURING PRACTICES (GMP) The ISO 22716 is an international standard of Good Manufacturing Practices (GMP) as a cosmetics production enterprise."
+        title: "ISO 27001:2013",
+        desc: "Information Security Management Systems What is ISO 27001:2013 ISMS? ISO 27001 is the international standard which is recognized globally for managing risks to the security of information you"
     },
     {
         image: Service9,
@@ -59,8 +59,8 @@ const serviceContent = [
     },
     {
         image: Service7,
-        title: "ISO 10002 2018",
-        desc: "Quality Management - Customer Satisfaction Certification ISO 10002 is trendy, especially tailor-made for complaints handling. It gives steerage to the complaints handling system associated."
+        title: "ISO 22716:2007",
+        desc: "GOOD MANUFACTURING PRACTICES (GMP) The ISO 22716 is an international standard of Good Manufacturing Practices (GMP) as a cosmetics production enterprise."
     },
 ]
 
