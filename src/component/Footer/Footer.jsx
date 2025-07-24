@@ -93,21 +93,27 @@ const Footer = () => {
                             </h3>
                             <ul className='p-0 mt-4'>
                                 <li className='mb-2 mb-lg-4'>
-                                    <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-start gap-3 text-white f-16 '>
-                                        <FaMapMarkedAlt className='mt-lg-2 footer_icon' />
-                                        45-745 Farmstead drive. Milton
+                                    <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-start gap-3 text-white f-16 f300'>
+                                        <FaMapMarkedAlt className='mt-lg-1 footer_icon' />
+                                        <div>
+                                            <span className='f600'>Head office: </span>45-745 Farmstead drive. Milton
+                                        </div>
                                     </a>
                                 </li>
                                 <li className='mb-2 mb-lg-4'>
-                                    <a href="https://maps.app.goo.gl/sZocQqZigjLtoX74A" className='d-flex align-items-start gap-3 text-white f-16 '>
-                                        <FaMapMarkedAlt className='mt-lg-2 footer_icon' />
-                                        Office No. 203, Nafees Archade Gulshan e Iqbal Karachi, Pakistan,
+                                    <a href="https://maps.app.goo.gl/sZocQqZigjLtoX74A" className='d-flex align-items-start gap-3 text-white f-16 f300'>
+                                        <FaMapMarkedAlt className='mt-lg-1 footer_icon' />
+                                        <div>
+                                            <span className='f600'>Registered Office:</span> Office no.203 Nafees arcade gulshan e Iqbal Karachi Pakistan
+                                        </div>
                                     </a>
                                 </li>
                                 <li className='mb-2 mb-lg-4'>
-                                    <a href="https://g.co/kgs/MSSFchh" className='d-flex align-items-start gap-3 text-white f-16 '>
-                                        <FaMapMarkedAlt className='mt-lg-2 footer_icon' />
-                                        Ifza Bussiness Park, Dubai Silicon Oasis, Dubai, UAE
+                                    <a href="https://g.co/kgs/MSSFchh" className='d-flex align-items-start gap-3 text-white f-16 f300'>
+                                        <FaMapMarkedAlt className='mt-lg-1 footer_icon' />
+                                        <div>
+                                            <span className='f600'>Registered Office:</span> Ifza Business Park, Dubai Silicon Oasis, Dubai, UAE
+                                        </div>
                                     </a>
                                 </li>
                             </ul>
