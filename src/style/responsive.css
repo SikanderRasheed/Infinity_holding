@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1199px) {
+    .f-16 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer_sec .footer_icon {
+        width: 6%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .f-45 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .f-40 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .f-16 {
+        line-height: 20px;
+    }
+
+    .header {
+        position: relative;
+        z-index: 0;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        background: #16164e;
+        left: 0;
+        top: 40%;
+        width: 100%;
+        z-index: 99;
+        padding: 20px 150px;
+    }
+
+    .header .header_bottom {
+        display: none;
+    }
+
+    .header .navbar-collapse ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top_bar {
+        display: none;
+    }
+
+    .home_banner {
+        padding: 60px 0;
+    }
+
+    .f-45 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .f-40 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .f-18 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .guide_sec,
+    .testimonials_sec,
+    .accrediation_sec,
+    .standard_services_sec,
+    .inspection_sec,
+    .footer_sec {
+        padding: 50px 0;
+        position: relative;
+        z-index: -1;
+    }
+
+    .guide_sec h2,
+    .guide_sec h3,
+    .guide_sec p {
+        text-align: center;
+    }
+
+    .guide_sec h2 span::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .guide_sec .sec_btn {
+        margin-top: 30px;
+    }
+
+    .guide_sec .sec_btn a {
+        margin: 10px auto 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .f-45 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .f-40 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .navbar-collapse {
+        top: 95%;
+        padding: 20px 20px;
+        z-index: 9999;
+    }
+
+    .accrediation_sec .txt h2 {
+        position: inherit;
+    }
+
+    .accrediation_sec .txt h2::after {
+        content: inherit
+    }
+
+    .guide_sec .sec_btn a {
+        height: 50px;
+        padding: 0 25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer_sec .txt {
+        margin-top: 20px;
+    }
+
+    .standard_services_sec .card .txt p {
+        font-size: 14px;
+    }
+
+    .standard_services_sec .card .txt h3 {
+        font-size: 20px;
+    }
+
+    .home_banner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .inspection_sec h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .inspection_sec p,
+    .inspection_sec ul li p {
+        font-size: 14px;
+    }
+
+    .inspection_sec ul {
+        margin-bottom: 20px;
+    }
+}

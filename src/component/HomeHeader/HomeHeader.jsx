@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
+import React, { useState } from 'react'
+import { FaAlignRight, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 import logo from "/images/logo.png";
 
 
@@ -48,58 +48,98 @@ const menuItems = [
 ];
 
 const HomeHeader = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleToggle = () => {
+        setMenuOpen(!menuOpen);
+    };
     return (
         <header className='header'>
             <div className="header_top">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-3">
-                            <div className="logo">
-                                <a href="/">
-                                    {/* <span>Logo Here</span> */}
-                                    <img src={logo} alt="Logo" className='img-fluid' />
-                                </a>
+                    <div className="row gap-md-4 gap-lg-0 align-items-center">
+                        <div className="col-12 col-lg-2 col-xxl-3">
+                            <div className="d-flex align-items-center justify-content-between">
+                                <div className="logo">
+                                    <a href="/">
+                                        {/* <span>Logo Here</span> */}
+                                        <img src={logo} alt="Logo" className='img-fluid' />
+                                    </a>
+                                </div>
+                                <div className="hamburder">
+                                    <button type="button"
+                                        onClick={handleToggle}
+                                        aria-label="Toggle navigation"
+                                        className='bg-transparent border-0 d-lg-none d-flex align-items-center justify-content-center'>
+                                        <FaAlignRight size={28} />
+                                    </button>
+                                    {/* Navbar Links */}
+                                    <div className={`collapse navbar-collapse ${menuOpen ? 'show' : ''}`} id="navbarSupportedContent">
+                                        <ul className="navbar-nav mb-0">
+                                            <li className="nav-item">
+                                                <a href="/" className="nav-link f-15 text-white f400 text-uppercase">Home</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a href="/standards" className="nav-link f-15 text-white f400 text-uppercase">Standards</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a href="/inspection" className="nav-link f-15 text-white f400 text-uppercase">Inspection</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a href="/training" className="nav-link f-15 text-white f400 text-uppercase">Training</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a href="/certifies-company-search" className="nav-link f-15 text-white f400 text-uppercase">Verify Certificate/Report</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a href="/verify-personal-certificate" className="nav-link f-15 text-white f400 text-uppercase">Verify Personal Certificate</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-9">
-                            <div className="row">
-                                <div className="col-lg-4">
-                                    <div className="phone">
-                                        <a href="javascript:;" className='d-flex align-items-center gap-3'>
-                                            <div className="icon">
-                                                <FaPhoneAlt className='f-26 text-blue' />
-                                            </div>
-                                            <div>
-                                                <span className='f-16 f600 text-dark-gray d-block'>Call Us: 20 100 043 9791</span>
-                                                <span className='f-16 f300 text-light-gray d-block'>Watsapp: 20 100 043 9791</span>
-                                            </div>
-                                        </a>
+                        <div className="col-12 col-lg-10 col-xxl-9">
+                            <div className='d-md-block d-none'>
+                                <div className="row">
+                                    <div className="col-4">
+                                        <div className="phone">
+                                            <a href="javascript:;" className='d-flex align-items-center justify-content-end gap-2 gap-xxl-3'>
+                                                <div className="icon">
+                                                    <FaPhoneAlt className='f-26 text-blue d-xl-block d-none' />
+                                                </div>
+                                                <div>
+                                                    <span className='f-16 f600 text-dark-gray d-block'>Call Us: 20 100 043 9791</span>
+                                                    <span className='f-16 f300 text-light-gray d-block'>Watsapp: 20 100 043 9791</span>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-4">
-                                    <div className="mail">
-                                        <a href="javascript:;" className='d-flex align-items-center gap-3'>
-                                            <div className="icon">
-                                                <FaEnvelope className='f-26 text-blue' />
-                                            </div>
-                                            <div>
-                                                <span className='f-16 f600 text-dark-gray d-block'>Mail us for help</span>
-                                                <span className='f-16 f300 text-light-gray d-block'>info@trustedsystempartners.com</span>
-                                            </div>
-                                        </a>
+                                    <div className="col-4">
+                                        <div className="mail">
+                                            <a href="mailto:info@trustedsystempartners.com" className='d-flex align-items-center gap-2 gap-xxl-3'>
+                                                <div className="icon">
+                                                    <FaEnvelope className='f-26 text-blue d-xl-block d-none' />
+                                                </div>
+                                                <div>
+                                                    <span className='f-16 f600 text-dark-gray d-block'>Mail us for help</span>
+                                                    <span className='f-16 f300 text-light-gray d-block'>info@trustedsystempartners.com</span>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-4">
-                                    <div className="phone">
-                                        <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-center gap-3'>
-                                            <div className="icon">
-                                                <FaMapMarkerAlt className='f-26 text-blue' />
-                                            </div>
-                                            <div>
-                                                <span className='f-16 f600 text-dark-gray d-block'>Marketing Office</span>
-                                                <span className='f-16 f300 text-light-gray d-block'>45-745 Farmstead drive. Milton </span>
-                                            </div>
-                                        </a>
+                                    <div className="col-4">
+                                        <div className="phone">
+                                            <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-center gap-2 gap-xxl-3'>
+                                                <div className="icon">
+                                                    <FaMapMarkerAlt className='f-26 text-blue d-xl-block d-none' />
+                                                </div>
+                                                <div>
+                                                    <span className='f-16 f600 text-dark-gray d-block'>Marketing Office</span>
+                                                    <span className='f-16 f300 text-light-gray d-block'>45-745 Farmstead drive. Milton </span>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -123,40 +163,6 @@ const HomeHeader = () => {
                                             Standards
                                         </a>
                                     </li>
-                                    {/* {menuItems.map((item, index) => (
-                                        <li className="nav-item" key={index}>
-                                            <a href="#" className="f-15 text-white f400 text-uppercase">
-                                                {item.label} +
-                                            </a>
-                                            <div className="mega-menu">
-                                                <div className="mega-content">
-                                                    {item.content.map((block, idx) => (
-                                                        <div key={idx}>
-                                                            {block.title && <h5 className="text-black ">{block.title}</h5>}
-
-                                                            <ul>
-                                                                {block.links.map((link, i) => {
-                                                                    if (typeof link === 'string') {
-                                                                        return (
-                                                                            <li key={i}>
-                                                                                <a href="#" className="text-black ">{link}</a>
-                                                                            </li>
-                                                                        );
-                                                                    } else {
-                                                                        return (
-                                                                            <li key={i}>
-                                                                                <a href={link.url} className="text-black ">{link.name}</a>
-                                                                            </li>
-                                                                        );
-                                                                    }
-                                                                })}
-                                                            </ul>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </li>
-                                    ))} */}
                                     <li>
                                         <a href="/inspection" className='f-15 text-white f400 text-uppercase'>
                                             Inspection

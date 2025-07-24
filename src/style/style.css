@@ -958,6 +958,10 @@ header .header_bottom .cert-dropdown li a:hover {
     column-count: 3;
 }
 
+.footer_sec .footer_icon {
+    width: 5%;
+}
+
 /* Footer End */
 
 /* Inner Banner Start */

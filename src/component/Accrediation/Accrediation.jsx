@@ -30,7 +30,7 @@ const Accrediation = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="txt text-center">
-                            <h2 className='f-40 f700 text-blue mb-5'>Trusted System Partners – Introduction</h2>
+                            <h2 className='f-40 f700 text-blue mb-4 mb-md-5'>Trusted System Partners – Introduction</h2>
                             <p className='f-16 f400 text-gray-light'>As trusted system partners, we provide comprehensive Management Certification services designed to enhance organizational performance, ensure compliance with international standards, and build stakeholder confidence. Our expert team works closely with clients to deliver tailored certification solutions</p>
                             <p className='f-16 f400 text-gray-light'>As trusted system partners, we offer specialized training programs designed to empower organizations with the knowledge and skills needed to implement, maintain, and continually improve their management systems.</p>
                             <p className='f-16 f400 text-gray-light'>As trusted system partners, we deliver reliable and independent inspection services that ensure your operations, products, and systems meet regulatory requirements and industry standards. Our qualified inspectors apply rigorous methodologies to assess compliance, safety, and performance at every stage—from design and production to installation and operation</p>
