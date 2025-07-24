@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/zeerakscp/public_html
+    - export DEPLOYPATH=/home/trusxzgc/public_html
     - /bin/cp -r build/* $DEPLOYPATH
