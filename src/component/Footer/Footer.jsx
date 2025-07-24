@@ -93,6 +93,12 @@ const Footer = () => {
                             </h3>
                             <ul className='p-0 mt-4'>
                                 <li className='mb-2 mb-lg-4'>
+                                    <a href="https://g.co/kgs/PSkByoQ" className='d-flex align-items-start gap-3 text-white f-16 '>
+                                        <FaMapMarkedAlt className='mt-lg-2 footer_icon' />
+                                        45-745 Farmstead drive. Milton
+                                    </a>
+                                </li>
+                                <li className='mb-2 mb-lg-4'>
                                     <a href="https://maps.app.goo.gl/sZocQqZigjLtoX74A" className='d-flex align-items-start gap-3 text-white f-16 '>
                                         <FaMapMarkedAlt className='mt-lg-2 footer_icon' />
                                         Office No. 203, Nafees Archade Gulshan e Iqbal Karachi, Pakistan,
