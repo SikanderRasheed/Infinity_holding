@@ -1,0 +1,28 @@
+[
+    {
+        "number": "TCP/PK//1013",
+        "initialDate": "08/05/2025",
+        "issueDate": "08/05/2025",
+        "expiryDate": "07/05/2026",
+        "auditDate": "07/05/2028",
+        "country": "Pakistan",
+        "standard": "ISO 9001:2015",
+        "organization": "Processing & Exporting of Mangoes",
+        "address": "Office# 3RD Floor, Phase 1, Defence View, Karachi Pakistan",
+        "scope": "PROCESSING & EXPORTING OF MANGOES",
+        "status": "Valid"
+    },
+    {
+        "number": "TSP/PK/HCP/1014",
+        "initialDate": "05/08/2025",
+        "issueDate": "05/08/2025",
+        "expiryDate": "04/08/2026",
+        "auditDate": "04/08/2028",
+        "country": "Pakistan",
+        "standard": "HACCP",
+        "organization": "Deep Sea Marine",
+        "address": "Plot No. A25, A26, A27, A28, A32, A33 & A34, Korangi Fish Harbor, Chashma Goth, Landhi, Bin Qasim Town, Karachi, Pakistan",
+        "scope": " PROCESSING, SORTING, GRADING, GLAZING, DE HEADING, WASHING AND PACKAGING OF FROZEN / FRESH SEA PRODUCTS (FISHES, FISH MAW, SHRIMPS, SQUIDS, CEPHALOPODS, OCTOPUS, RAZOR CLAM, CRAB, CROAKER, TOP SHELL AND COOKED TOP SHELL)",
+        "status": "Valid"
+    }
+]
